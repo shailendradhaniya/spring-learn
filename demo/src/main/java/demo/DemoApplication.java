@@ -42,7 +42,7 @@ public class DemoApplication {
 @RestController
 class MessageRestController{
 	
-	@Value("${message:Hello default}")
+	@Value("${message}")
 	private String message;
 	
 	@RequestMapping("/message")
